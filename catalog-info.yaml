@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: second-backstage-test-config-loaded-from-repo-yaml
+  annotations:
+    github.com/project-slug: brentg-telus/second-backstage-test
+spec:
+  type: other
+  lifecycle: unknown
+  owner: simplify-team
